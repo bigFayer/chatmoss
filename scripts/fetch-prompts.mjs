@@ -2,13 +2,13 @@ import fetch from "node-fetch";
 import fs from "fs/promises";
 
 const RAW_CN_URL =
-  "https://github.com/bigFayer/awesome-chatgpt-prompts-zh/blob/main/prompts-zh.json";
+  "https://github.com/bigFayer/prompts/blob/main/prompts-zh.json";
 const CN_URL =
-  "https://github.com/bigFayer/awesome-chatgpt-prompts-zh/blob/main/prompts-zh.json";
+  "https://github.com/bigFayer/prompts/blob/main/prompts-zh.json";
 const RAW_EN_URL =
-  "https://github.com/bigFayer/awesome-chatgpt-prompts-zh/blob/main/prompts-zh.json";
+  "https://github.com/bigFayer/prompts/blob/main/prompts-zh.json";
 const EN_URL =
-  "https://github.com/bigFayer/awesome-chatgpt-prompts-zh/blob/main/prompts-zh.json";
+  "https://github.com/bigFayer/prompts/blob/main/prompts-zh.json";
 const FILE = "./public/prompts.json";
 
 async function fetchCN() {
