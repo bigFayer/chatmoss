@@ -2,13 +2,13 @@ import fetch from "node-fetch";
 import fs from "fs/promises";
 
 const RAW_CN_URL =
-  "https://raw.githubusercontent.com/PlexPt/awesome-chatgpt-prompts-zh/main/prompts-zh.json";
+  "https://github.com/bigFayer/awesome-chatgpt-prompts-zh/blob/main/prompts-zh.json";
 const CN_URL =
-  "https://cdn.jsdelivr.net/gh/PlexPt/awesome-chatgpt-prompts-zh@main/prompts-zh.json";
+  "https://github.com/bigFayer/awesome-chatgpt-prompts-zh/blob/main/prompts-zh.json";
 const RAW_EN_URL =
-  "https://raw.githubusercontent.com/f/awesome-chatgpt-prompts/main/prompts.csv";
+  "https://github.com/bigFayer/awesome-chatgpt-prompts-zh/blob/main/prompts-zh.json";
 const EN_URL =
-  "https://cdn.jsdelivr.net/gh/f/awesome-chatgpt-prompts@main/prompts.csv";
+  "https://github.com/bigFayer/awesome-chatgpt-prompts-zh/blob/main/prompts-zh.json";
 const FILE = "./public/prompts.json";
 
 async function fetchCN() {
